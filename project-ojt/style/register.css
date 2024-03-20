@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    margin: 0 auto;
+}
+.form .img{
+    text-align: center;
+}
+.form .name{
+    text-align: center;
+}
+.form .name input{
+    height: 40px;
+    width: 400px;
+}
+.form p{
+    text-align: center;
+    font-size: 30px;
+}
+.form .name1 input{
+    width: 400px;
+    height: 40px;
+}
+.form .name1{
+    text-align: center;
+}
+.form .submit{
+    text-align: center;
+}
+.form .submit button{
+    width: 400px;
+    height: 40px;
+    background-color: rgb(254,87,34);
+}
+.form .submit button:hover{
+    background: rgb(186, 47, 4);
+}
+.form .name2{
+    text-align: center;
+}

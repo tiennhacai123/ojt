@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/register.css">
+</head>
+<body>
+    <div class="form">
+        <div class="img">
+            <!-- Logo image -->
+            <img width="70px" src="https://classic.vn/wp-content/uploads/2022/04/logo-shopee.png" alt="">
+        </div>
+        <p>Sign up</p>
+        <!-- Start of the form -->
+        <form id="formRegister">
+            <div class="name">
+                <!-- Input for First Name -->
+                <input id="userName" type="text" placeholder="Username*" >
+            </div>
+                <div id="userNameError" style="margin-left: 460px; color: red; display: none;">Username cannot be blank</div>
+            <br>
+            <div class="name1">
+                <!-- Input for Email Address -->
+                <input id="email" type="email" placeholder="Email Address*">
+                </div>
+                <div id="emailError" style="margin-left: 460px; color: red; display: none;">Email cannot be blank</div>        
+                <br>
+                <div class="name1">
+                <!-- Input for Password -->
+                <input id="password" type="password" placeholder="Password*">
+                </div>
+                <div id="passwordError" style="margin-left: 460px;color: red; display: none;">Password cannot be blank</div>        
+                <br>
+                <div class="name2">
+                <!-- Checkbox for opting into receiving emails -->
+                <input id="checkbox" type="checkbox">
+                <label for="checkbox">I want to receive inspiration, marketing promotions, and updates via email.</label>
+            </div>
+            <br>
+            <br>
+            <div class="submit">
+                <!-- Submit button -->
+                <button type="submit">SIGN UP</button>
+                <br>
+                <br>
+                <!-- Link to sign-in page -->
+                <a href="../pages/login.html">Already have an account? Sign in</a>
+            </div>
+        </form>
+        <!-- End of the form -->
+    </div>
+    <script src="../js/register.js"></script>
+</body>
+</html>
